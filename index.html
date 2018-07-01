@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Universe 3D</title>
+  </head>
+  <body>
+    <br>
+    <div id="selection">
+      <h2>&emsp;View:&emsp;</h2>
+      <select id="camera-orientation-selection">
+        <option value="side-view">Side</option>
+        <option value="top-view">Top</option>
+      </select>
+      <h2>&emsp;Focus On:&emsp;</h2>
+      <select id="camera-focus-selection">
+        <option value="sun">Sun</option>
+        <option value="mercury">Mercury</option>
+        <option value="venus">Venus</option>
+        <option value="earth">Earth</option>
+        <option value="moon">Moon</option>
+        <option value="mars">Mars</option>
+        <option value="jupiter">Jupiter</option>
+      </select>
+    </div>
+    <br><br>
+    <script src="../../Library/Three.js" charset="utf-8"></script>
+    <script src="../../Library/game-object-3d.js" charset="utf-8"></script>
+    <script src="../../Library/Point.js" charset="utf-8"></script>
+    <script src="../../Library/Vector2.js" charset="utf-8"></script>
+
+    <script src="../../Library/math2.js" charset="utf-8"></script>
+    <script src="../../Library/random.js" charset="utf-8"></script>
+
+    <script src="../../Library/screen-setup.js" charset="utf-8"></script>
+
+    <script src="js/scene.js" charset="utf-8"></script>
+    <script src="js/camera.js" charset="utf-8"></script>
+    <script src="js/renderer.js" charset="utf-8"></script>
+    <script src="js/scaling.js" charset="utf-8"></script>
+    <script src="js/selection-bar.js" charset="utf-8"></script>
+    <script src="js/universe.js" charset="utf-8"></script>
+    <script src="js/game-loop.js" charset="utf-8"></script>
+    <script src="js/setup.js" charset="utf-8"></script>
+  </body>
+</html>
